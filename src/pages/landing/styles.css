@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+
+#page-landing {
+    border: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.content-top {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    width: 30%;
+    background-color: #7f1cef;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.logoHoupa {
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.title-team {
+    color: #7f1cef;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 46px;
+    padding-top: 25px;
+}
+
+.equipe {
+    width: 115.1rem;
+}
+
+.input-login {
+    border-style: none;
+    width: 40rem;
+    height: 5rem;
+    margin-bottom: 3%;
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 0.8rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.name {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 120px;
+}
+
+.subname {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 130px;
+}
+
+.work-desk {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+}
+
+.redes-socias {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50%;
+}
+
+.card-redes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 10rem;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-redes {
+    width: 45px;
+    height: 45px;
+}
+
+label {
+    position: relative;
+    display: inline-block;
+}
+
+input {
+   outline: none;
+   border-style: none;
+   font-size: 18px;
+   letter-spacing: .45px;
+   border-radius: 23px;
+   font-family: 'IBM Plex Sans', sans-serif;
+   padding-left: 20px;
+   color: white;
+   width: 250px;
+   line-height: 46px;
+   height: 46px;
+   
+   &:focus {
+        border: 1px solid #2e2e42;
+   }
+
+}
+  
+span {
+  position: absolute;
+  left: 0px;
+  top: -14px;
+  display: inline-block;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 10px;
+  background-color: #ffffff;
+  z-index: 2222;
+  margin-left: 15px;
+  font-size: 1.8rem;
+  pointer-events: none;
+  transition: all 0.2s, color 0.2s;
+}
+
+/* input:focus ~ span, input.fill ~ span {
+  transform: translate3d(8px, -20px, 0px);
+  font-size: 19px;
+  color: white;
+} */
+
+.span-desc {
+    color: white;
+    background-color: #7f1cef;
+}
+
+.label-title {
+    margin-bottom: 2%;
+    color: white;
+}
+
+.button-login {
+    width: 40rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    border: none;
+    color: #7f1cef;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.style-esqueci-senha {
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 1.3%;
+}
+
+.termos {
+    color: white;
+    text-align: end;
+    font-size: 2rem;
+}
+
+.termos-uso {
+    width: 100%;
+    height: 32.5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.input-login::-webkit-input-placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding-left: 5px;
+ }
+ 
+#password {
+    width: 6.8rem;
+}
+
+#email {
+    width: 5.9rem;
+}
